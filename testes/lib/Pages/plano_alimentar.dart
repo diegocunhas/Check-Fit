@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class PlanoAlimentar extends StatefulWidget {
   const PlanoAlimentar({ Key? key }) : super(key: key);
+  static const String routeName = '/planoAlimentar';
 
   @override
   _PlanoAlimentar createState() => _PlanoAlimentar();
