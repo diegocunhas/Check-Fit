@@ -16,6 +16,7 @@ class _BuildDrawerState extends State<BuildDrawer> {
     PageRoutes.home,
     PageRoutes.meuTreino,
     PageRoutes.planoAlimentar,
+    PageRoutes.criarPlanoAlimentar,
     PageRoutes.avaliacaoFisica,
     PageRoutes.criarTreino,
   ];
@@ -32,8 +33,9 @@ class _BuildDrawerState extends State<BuildDrawer> {
             _listTile('Meu Perfil',Icon(Icons.account_tree),routeList[0]),
             _listTile('Meu Treino/Criar Treino - trocar com o perfil',Icon(Icons.access_alarms_rounded),routeList[1]),
             //_criarTreino(2),
-            _listTile('Plano Alimentar/Criar Plano Alimentar - trocar com o perfil',Icon(Icons.cable_outlined),routeList[2]),
-            _listTile('Avaliação Fisica',Icon(Icons.dangerous),routeList[3]),
+            _listTile('Criar Plano Alimentar',Icon(Icons.cable_outlined),routeList[3]),
+            _listTile('Plano Alimentar- trocar com o perfil',Icon(Icons.cable_outlined),routeList[2]),
+            _listTile('Avaliação Fisica',Icon(Icons.dangerous),routeList[4]),
           ]
         ),
       ),

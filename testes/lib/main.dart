@@ -6,6 +6,7 @@ import 'package:testes/Pages/meu_treino.dart';
 import 'package:testes/Pages/criar_treino.dart';
 import 'package:testes/Pages/login.dart';
 import 'package:testes/routes/pageRoute.dart';
+import 'package:testes/Pages/criar_plano_alimentar.dart';
 
 void main(){
   runApp(MyApp());
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         PageRoutes.meuTreino: (context) => MeuTreino(),
         PageRoutes.criarTreino: (context) => CriarTreino(),
         PageRoutes.planoAlimentar: (context) => PlanoAlimentar(),
+        PageRoutes.criarPlanoAlimentar: (context) => CriarPlanoAlimentar(),
       }
     );
   }
